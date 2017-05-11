@@ -1,0 +1,127 @@
+/*=======================================================
+      DETAIL
+========================================================*/
+.detail-content{
+	 height: auto;
+	 width: 100%;
+}
+.detail{
+	border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 20px;
+   
+}
+.price-add{
+	border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 10px;
+}
+.detail-description h3{
+	display: inline-block;
+	padding-bottom: 20px;
+	font-size: 25px;
+	color: #595959;
+}
+.detail-description img{
+	float: right;
+}
+.detail-description p{
+	padding-bottom: 20px;
+	color: #7e7e7e;
+	line-height: 30px;
+}
+.our-price{	
+	font-size: 25px;
+	color: #015699;
+}
+.price-int{
+	color: #e45858;
+	padding-left: 5px;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+.price-add p{
+	padding-top: 10px;
+	color: #acabab;
+}
+.button-cart{
+	float: right;
+	border: none;
+	background-color: #84c269;
+	color: #fff;
+	padding: 10px 25px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 2px;
+	transition: .5s ease;
+	margin-top: 5px;
+}
+.button-cart:hover{
+	color: #fff;
+	background-color: #93d278;
+	text-decoration: none;
+	transition: .5s ease;
+}
+.tab-section{
+	padding-top: 0;
+}
+.wrapper .active{
+	color: #c1c1c1;
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.tab{
+	cursor: pointer;
+	border: 1px solid #d5d2d2;
+	border-radius: 3px 3px 0 0;
+	display: inline-block;
+	margin-bottom: -1px;
+	padding: 10px;
+	background-color: #c2c2c2;
+	color: #fff;
+	position: relative;
+	z-index: 2;
+}
+.tab:nth-child(1){
+	margin-right: 5px;
+}
+.tab_item {
+	border: 1px solid #d5d2d2;
+	border-radius: 3px;
+	padding: 20px;
+	color: #7e7e7e;
+	line-height: 30px;
+}
+.comments {
+	margin: 20px 0;
+	padding: 20px;
+	border: 1px solid #d5d2d2;
+}
+.comments h3 {
+	color: #9c9c9c;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+hr{
+	padding: 0;
+	margin: 0 0 20px 0;
+	color: #d5d2d2;
+}
+.img-det img {
+	float: left;
+	padding-right: 20px;
+}
+.img-det p{ 
+	color: #7e7e7e;
+}
+.product-2 {
+	color: #7e7e7e;
+	font-size: 18px;
+	padding: 10px 0;
+
+}
+.btn-comments{
+	margin-top: 20px;
+	background-color: #84c269;
+}

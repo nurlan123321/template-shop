@@ -1,0 +1,110 @@
+/* Медиа-запросы */ 
+@media screen and (max-width: 1200px) { 
+	.left-column-block{
+		padding-right: 1%;
+	}
+    .left-column-block input{
+		border: 3px solid #79b260;
+	}
+	.banner{
+		display: none;
+	}
+	 .container{
+    	width: 100%;
+    }
+}
+@media screen and (max-width: 1055px) {
+	.reklama img{
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+} 
+@media screen and (max-width: 990px) { 
+    .banner {
+  		width: 176px;
+  		height: 200px;
+    }
+   
+    .main-content{
+    	padding-top: 0;
+    }
+    .reklama img{
+    	margin-left: 5%;
+    }
+}
+@media screen and (max-width: 876px) {
+	.reklama img{
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 800px) { 
+    .left-column-block input{
+		border: 3px solid #79b260;
+	}
+}
+@media screen and (max-width: 767px) { 
+	.left-column-block{
+		width: 100%;
+	}
+	.banner {
+  		display: none;
+    }
+    .shop-checkout{
+    	padding-left: 5%; 
+    }
+    .padd {
+    	padding-bottom: 20px;
+    }
+    .reklama img{
+    	display: none;
+    }
+}
+@media screen and (max-width: 630px) { 
+	.header-middle{
+		width: 100%;
+		padding: 15px 5px;
+		background-image: url(../images/top-header.png);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.shop span{
+		line-height: 30px;
+	}
+	.checkout span{
+		
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 477px) { 
+ 	.your-cart{
+ 		display: none;
+ 	}
+ 	.checkout span{
+		padding-bottom: 10px;
+		display: block;
+	}
+	.shop-checkout{
+    	padding-left: 0; 
+    }
+     .left-column-block input{
+		width: 150px; 
+	}
+}
+@media screen and (max-width: 384px) {
+	.phone{
+		display: none;
+	}
+	.shop-checkout{
+		float: right;
+	}
+}
+@media screen and (max-width: 325px) {
+	 .left-column-block input{
+		width: 150px; 
+	}
+	#slider-section img{
+	min-height: 10px;
+	}
+}
